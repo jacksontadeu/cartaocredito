@@ -1,0 +1,19 @@
+.cartao-container{
+    width: 500px;
+    height: 250px;
+    border:solid 1px black;
+    border-radius: 30px;
+    padding: 20px;
+    margin:  30px;
+    background-color: rgb(35, 35, 40);
+    color: rgb(246, 245, 245);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    grid-template-areas: "entrada" "visualizar";
+
+}
+.visualizar{
+    grid-area: visualizar;
+    grid-row-start: auto;
+}
